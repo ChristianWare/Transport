@@ -1,22 +1,40 @@
 .container {
     margin-top: 1rem;
+    color: var(--black);
 }
 
 .navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navMiddle {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .navMenu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: flex-start;
+    gap: 2rem;
     list-style: none;
 }
 
 .navItem {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
+    font-family: "NeutralFaceBold";
+    /* letter-spacing: 1px; */
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon {
+    color: var(--blue2);
+    font-size: 2rem;
 }
