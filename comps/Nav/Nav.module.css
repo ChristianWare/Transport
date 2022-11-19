@@ -23,9 +23,10 @@
 }
 
 .navItem {
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-family: "NeutralFaceBold";
+    font-family: "GilroyExtraBold";
     color: var(--blue2);
 }
 
@@ -33,6 +34,10 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.navItem span p {
+    font-family: "GilroyExtraBold";
 }
 
 .navRight {
@@ -92,7 +97,7 @@
     .icon2 {
         display: block;
         color: var(--blue2);
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hamburger {
