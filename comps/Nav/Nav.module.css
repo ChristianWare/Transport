@@ -29,6 +29,12 @@
     color: var(--blue2);
 }
 
+.navItem span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .navRight {
     display: flex;
     align-items: center;

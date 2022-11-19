@@ -23,7 +23,6 @@ const Nav = () => {
     window.addEventListener("resize", handleResize);
   }, [isOpen]);
 
-
   return (
     <Layout>
       <header className={styles.container}>
@@ -38,11 +37,12 @@ const Nav = () => {
                   ? styles.navMenu
                   : styles.navMenu + " " + styles.active
               }
-            >{isOpen === true && (
-              <li className={styles.navItem}>
-              <Logo />
-              </li>
-            )}
+            >
+              {isOpen === true && (
+                <li className={styles.navItem}>
+                  <Logo />
+                </li>
+              )}
               <li>
                 <Link href='/' className={styles.navItem}>
                   Services
@@ -67,12 +67,18 @@ const Nav = () => {
                 <>
                   <li>
                     <Link href='/' className={styles.navItem}>
-                      <Phone className={styles.icon2} />
+                      <span>
+                        <Phone className={styles.icon2} />
+                        <p>480-529-1398</p>
+                      </span>
                     </Link>
                   </li>
                   <li>
                     <Link href='/' className={styles.navItem}>
-                      <Email className={styles.icon2} />
+                      <span>
+                        <Email className={styles.icon2} />
+                        <p>Balanier54@msn.com</p>
+                      </span>
                     </Link>
                   </li>
                 </>
