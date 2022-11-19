@@ -12,7 +12,30 @@ const Nav = () => {
           <div className={styles.navLeft}>
             <Logo />
           </div>
-          <div className={styles.navRight}>Nav Links Here</div>
+          <div className={styles.navRight}>
+            <ul className={styles.navMenu}>
+              <li className={styles.navItem}>
+                <Link href='/'>
+                  Services
+                </Link>
+              </li>
+              <li className={styles.navItem}>
+                <Link href='/'>
+                  About
+                </Link>
+              </li>
+              <li className={styles.navItem}>
+                <Link href='/'>
+                  Fleet
+                </Link>
+              </li>
+              <li className={styles.navItem}>
+                <Link href='/'>
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
     </Layout>

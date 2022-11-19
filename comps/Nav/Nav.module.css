@@ -7,3 +7,16 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navItem {
+    font-size: 2rem;
+    text-transform: uppercase;
+}

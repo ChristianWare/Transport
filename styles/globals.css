@@ -6,67 +6,37 @@
 }
 
 @font-face {
-  font-family: "OswaldRegular";
+  font-family: "Lato";
   font-style: normal;
   font-display: swap;
-  src: url("../public/fonts/OswaldRegular.ttf");
+  src: url("../public/fonts/Lato.ttf");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: "OswaldSemiBold";
+  font-family: "NeutralFace";
   font-style: normal;
   font-display: swap;
-  src: url("../public/fonts/OswaldSemiBold.ttf");
+  src: url("../public/fonts/NeutralFaceBold.otf");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: "OswaldMedium";
+  font-family: "NeutralFaceBold";
   font-style: normal;
   font-display: swap;
-  src: url("../public/fonts/OswaldMedium.ttf");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "OswaldLight";
-  font-style: normal;
-  font-display: swap;
-  src: url("../public/fonts/OswaldLight.ttf");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "OswaldExtraLight";
-  font-style: normal;
-  font-display: swap;
-  src: url("../public/fonts/OswaldExtraLight.ttf");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "OswaldBold";
-  font-style: normal;
-  font-display: swap;
-  src: url("../public/fonts/OswaldBold.ttf");
+  src: url("../public/fonts/NeutralFaceBold.otf");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
 
 * {
-  font-family: "OswaldRegular";
+  font-family: "Lato";
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
