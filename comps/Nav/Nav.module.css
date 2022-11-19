@@ -25,16 +25,74 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     font-family: "NeutralFaceBold";
-    /* letter-spacing: 1px; */
+    color: var(--blue2);
 }
 
 .navRight {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 2rem;
 }
 
 .icon {
     color: var(--blue2);
     font-size: 2rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .navMenu {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+        border: 4px solid red;
+        /* background-color: red; */
+        z-index: 998;
+    }
+
+    .navMenu.active {
+        left: 0%;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 999;
+        margin-top: 1rem;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+        background-color: red;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: red;
+    }
 }
