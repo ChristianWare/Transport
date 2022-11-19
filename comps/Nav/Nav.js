@@ -12,6 +12,18 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (window.innerWidth <= 768 && isOpen) {
+      body.style.overflow = "hidden";
+    } else {
+      body.style.overflow = "auto";
+    }
+    const handleResize = () => setIsOpen(false);
+    window.addEventListener("resize", handleResize);
+  }, [isOpen]);
+
+
   return (
     <Layout>
       <header className={styles.container}>
@@ -26,7 +38,11 @@ const Nav = () => {
                   ? styles.navMenu
                   : styles.navMenu + " " + styles.active
               }
-            >
+            >{isOpen === true && (
+              <li className={styles.navItem}>
+              <Logo />
+              </li>
+            )}
               <li>
                 <Link href='/' className={styles.navItem}>
                   Services
@@ -47,6 +63,20 @@ const Nav = () => {
                   Contact
                 </Link>
               </li>
+              {isOpen === true && (
+                <>
+                  <li>
+                    <Link href='/' className={styles.navItem}>
+                      <Phone className={styles.icon2} />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/' className={styles.navItem}>
+                      <Email className={styles.icon2} />
+                    </Link>
+                  </li>
+                </>
+              )}
             </ul>
           </div>
           <div className={styles.navRight}>
