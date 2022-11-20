@@ -1,0 +1,73 @@
+.bgColor {
+    color: var(--white);
+    background-color: var(--black);
+    padding: 5rem 0;
+
+}
+
+.content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.top {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.title {
+    font-family: "GilroyExtraBold";
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.copy {
+    text-transform: uppercase;
+    line-height: 100%; 
+}
+
+.copy2 {
+    margin-top: 2rem;
+}
+
+.accent {
+    line-height: 100%;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: var(--blue1);
+}
+
+.bottomTop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 868px) {
+    .top {
+        text-align: center;
+    }
+    .bottomTop {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bottomTop {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .title {
+        text-align: center;
+    }
+
+    .bottomTop {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem;
+    }
+}
+
