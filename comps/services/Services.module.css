@@ -1,6 +1,7 @@
 .bgColor {
     color: var(--white);
     background-color: var(--black);
+    padding: 5rem 0;
 
 }
 
@@ -10,7 +11,7 @@
 }
 
 .top {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 .title {
@@ -33,15 +34,10 @@
 }
 
 .bottomTop {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.bottomBottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 3rem;
+    margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 868px) {

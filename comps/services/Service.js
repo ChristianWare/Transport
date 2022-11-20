@@ -1,7 +1,9 @@
 import Layout from "../layout/Layout";
 import styles from "./Services.module.css";
-import Image from "next/image";
 import ServiceCard from "../serviceCard/ServiceCard";
+import Driver from "../../public/images/driver.webp";
+import Event from "../../public/images/event.jpg";
+import Plane from "../../public/images/plane.jpg";
 
 const Service = () => {
   return (
@@ -16,11 +18,10 @@ const Service = () => {
           </div>
           <div className={styles.bottom}>
             <div className={styles.bottomTop}>
-              <ServiceCard />
-              <ServiceCard />
-            </div>
-            <div className={styles.bottomBottom}>
-              <ServiceCard />
+              <ServiceCard src={Plane} title='Airport Transfers' />
+              <ServiceCard src={Driver} title='Chauffeur Services' />
+              <ServiceCard src={Event} title='Special Events' />
+              <ServiceCard src={Event} title='Long Distance' />
             </div>
           </div>
         </div>

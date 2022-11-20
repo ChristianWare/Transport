@@ -52,10 +52,17 @@
     font-size: 0;
 }
 
-
 @media screen and (max-width: 868px) {
     .content {
         flex-direction: column;
+    }
+
+    .btnContainer {
+        top: 20px;
+    }
+
+    .imgContainer {
+        margin-top: 2rem;
     }
 }
 
