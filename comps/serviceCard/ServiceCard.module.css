@@ -18,8 +18,7 @@
     border-radius: 8px;
     height: 100%;
     z-index: -1;
-    background-image: linear-gradient(to right bottom,
-    #4787e6, #3877d9, #2967cd, #1957bf, #0247b2);
+    background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #9e9cd9, #0d5bd1, #0247b2);
     content: '';
 }
 
