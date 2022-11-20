@@ -4,6 +4,7 @@ import ServiceCard from "../serviceCard/ServiceCard";
 import Driver from "../../public/images/driver.webp";
 import Event from "../../public/images/event.jpg";
 import Plane from "../../public/images/plane.jpg";
+import Road from "../../public/images/road.jpg";
 
 const Service = () => {
   return (
@@ -19,9 +20,9 @@ const Service = () => {
           <div className={styles.bottom}>
             <div className={styles.bottomTop}>
               <ServiceCard src={Plane} title='Airport Transfers' />
-              <ServiceCard src={Driver} title='Chauffeur Services' />
+              <ServiceCard src={Driver} title='Chauffeur' />
               <ServiceCard src={Event} title='Special Events' />
-              <ServiceCard src={Event} title='Long Distance' />
+              <ServiceCard src={Road} title='Long Distance' />
             </div>
           </div>
         </div>
