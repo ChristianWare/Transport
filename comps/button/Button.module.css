@@ -22,8 +22,8 @@
 }
 
 .secondary {
-    border: solid 2px var(--blue2);
-    color: var(--dark);
+    border: solid 2px var(--white);
+    color: var(--white);
 }
 
 .primary:hover  {

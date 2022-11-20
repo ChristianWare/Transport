@@ -1,3 +1,7 @@
+.bgColor {
+    background-image: linear-gradient(to right bottom, #ffffff, #d0ccec, #9e9cd9, #6770c5, #0247b2);
+}
+
 .container {
     margin-top: 3rem;
     margin-bottom: 3.5rem;

@@ -5,7 +5,7 @@ import Service from "../comps/services/Service";
 export default function Home() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Hero />
       <Service />
     </>

@@ -48,7 +48,7 @@
 }
 
 .icon {
-    color: var(--blue2);
+    color: var(--white);
     font-size: 2rem;
     cursor: pointer;
 }
