@@ -44,23 +44,23 @@ const Nav = () => {
                 </li>
               )}
               <li>
-                <Link href='/' className={styles.navItem}>
-                  Services
+                <Link href='/'>
+                  <a className={styles.navItem}>Services</a>
                 </Link>
               </li>
               <li>
-                <Link href='/' className={styles.navItem}>
-                  About
+                <Link href='/'>
+                  <a className={styles.navItem}>About</a>
                 </Link>
               </li>
               <li>
-                <Link href='/' className={styles.navItem}>
-                  Fleet
+                <Link href='/'>
+                  <a className={styles.navItem}>Fleet</a>
                 </Link>
               </li>
               <li>
-                <Link href='/' className={styles.navItem}>
-                  Contact
+                <Link href='/'>
+                  <a className={styles.navItem}>Contact</a>
                 </Link>
               </li>
               {isOpen === true && (

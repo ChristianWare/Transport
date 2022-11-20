@@ -16,8 +16,8 @@
 }
 
 .primary {
-    background-color: var(--blue2);
-    border: solid 2px var(--blue2);
+    background-color: #161E54;
+    border: solid 2px var(--black);
     
 }
 
@@ -28,15 +28,15 @@
 
 .primary:hover  {
    background-color: transparent;
-   border: solid 2px var(--blue2);
+   border: solid 2px var(--black);
    color: var(--black);
 }
 
 .secondary:hover {
-    background-color: var(--blue2);
-    border: 2px solid var(--blue2);
+    background-color: var(--green);
+    border: 2px solid var(--black);
     transition: all 0.2s ease-in-out;
-    color: var(--white);
+    color: var(--black);
 }
 
 @media screen and (max-width: 568px) {
