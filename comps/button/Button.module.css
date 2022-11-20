@@ -1,0 +1,45 @@
+
+.primary, .secondary {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: var(--white);
+    user-select: none;
+    width: 100%;
+}
+
+.primary {
+    background-color: var(--blue2);
+    border: solid 2px var(--blue2);
+    
+}
+
+.secondary {
+    border: solid 2px var(--blue2);
+    color: var(--dark);
+}
+
+.primary:hover  {
+   background-color: var(--white);
+   border: solid 2px var(--blue2);
+   color: var(--black);
+}
+
+.secondary:hover {
+    background-color: var(--blue2);
+    transition: all 0.2s ease-in-out;
+    color: var(--white);
+}
+
+@media screen and (max-width: 568px) {
+    .primary, .secondary{
+        width: 100%;
+    }
+}
