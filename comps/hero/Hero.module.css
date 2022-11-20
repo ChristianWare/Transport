@@ -1,0 +1,58 @@
+.container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.left, .right{
+    flex:1
+}
+
+.right {
+    flex: 1.5
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-family: "GilroyExtraBold";
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.copy {
+    font-size: 2rem;
+}
+
+.copy span {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: var(--blue2)
+}
+
+.imgContainer {
+    font-size: 0;
+}
+
+
+@media screen and (max-width: 868px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 5rem;
+    }
+}
