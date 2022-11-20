@@ -1,6 +1,7 @@
 .container {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
+    height: 100vh;
 }
 
 .content {
@@ -9,18 +10,13 @@
     gap: 2rem;
 }
 
-.left, .right{
-    flex:1
-}
 
-.right {
-    flex: 1.5
-}
 
 .left {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex:1;
 }
 
 .title {
@@ -38,6 +34,10 @@
     font-size: 2.5rem;
     margin-right: 1rem;
     color: var(--blue2)
+}
+
+.right {
+    flex: 1.5
 }
 
 .imgContainer {
