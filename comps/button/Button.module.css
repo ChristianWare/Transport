@@ -22,18 +22,19 @@
 }
 
 .secondary {
-    border: solid 2px var(--white);
-    color: var(--white);
+    border: solid 2px var(--black);
+    color: var(--black);
 }
 
 .primary:hover  {
-   background-color: var(--white);
+   background-color: transparent;
    border: solid 2px var(--blue2);
    color: var(--black);
 }
 
 .secondary:hover {
     background-color: var(--blue2);
+    border: 2px solid var(--blue2);
     transition: all 0.2s ease-in-out;
     color: var(--white);
 }

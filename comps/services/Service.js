@@ -14,7 +14,7 @@ const Service = () => {
           <div className={styles.top}>
             <h2 className={styles.title}>Our Services</h2>
             <p className={styles.copy}>
-              <span>//</span>What we do
+              <span className={styles.accent}>//</span>What we do
             </p>
           </div>
           <div className={styles.bottom}>

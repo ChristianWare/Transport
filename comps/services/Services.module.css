@@ -26,7 +26,7 @@
     line-height: 100%;
 }
 
-.copy span {
+.accent {
     line-height: 100%;
     font-weight: bold;
     font-size: 2.5rem;
@@ -50,5 +50,9 @@
 @media screen and (max-width: 568px) {
     .title {
         text-align: center;
+    }
+
+    .bottomTop {
+        padding: 1rem;
     }
 }
