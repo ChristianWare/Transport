@@ -8,8 +8,8 @@ import Nav from "../Nav/Nav";
 const Hero = () => {
   return (
     <div className={styles.bgColor}>
-      <Layout>
       <Nav />
+      <Layout>
         <div className={styles.container}>
           <div className={styles.content}>
             <div className={styles.left}>
