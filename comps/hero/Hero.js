@@ -10,7 +10,7 @@ const Hero = () => {
         <div className={styles.content}>
           <div className={styles.left}>
             <h1 className={styles.title}>
-              Providing A Professional & Reliable Service
+              Reliable & Professional Transportation Services
             </h1>
             <p className={styles.copy}>
               <span>//</span>We'll get you to where you need to go!

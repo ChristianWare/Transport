@@ -23,10 +23,12 @@
     font-family: "GilroyExtraBold";
     text-transform: uppercase;
     color: var(--black);
+    font-size: 5.5rem;
 }
 
 .copy {
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .copy span {
