@@ -1,5 +1,5 @@
 
-.primary, .secondary {
+.primary, .secondary, .white {
     display: block;
     text-transform: uppercase;
     font-weight: 700;
@@ -18,11 +18,15 @@
 .primary {
     background-color: #161E54;
     border: solid 2px var(--black);
-    
 }
 
 .secondary {
     border: solid 2px var(--black);
+    color: var(--black);
+}
+
+.white {
+    background-color: var(--white);
     color: var(--black);
 }
 
@@ -37,6 +41,11 @@
     border: 2px solid var(--black);
     transition: all 0.2s ease-in-out;
     color: var(--black);
+}
+
+.white:hover {
+    background-color: var(--black);
+    color: var(--white);
 }
 
 @media screen and (max-width: 568px) {
