@@ -36,6 +36,16 @@
     gap: 1rem;
 }
 
+.navItem3 {
+    display: flex;
+    gap: 2rem;
+    font-family: "GilroyExtraBold";
+}
+
+.navItem3 p {
+    font-family: "GilroyExtraBold"; 
+}
+
 .navItem span p {
     font-family: "GilroyExtraBold";
 }

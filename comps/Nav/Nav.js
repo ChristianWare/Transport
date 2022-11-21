@@ -41,7 +41,7 @@ const Nav = () => {
             >
               {isOpen === true && (
                 <li className={styles.navItem}>
-                  <Logo />
+                  <Logo src={NierLogo} />
                 </li>
               )}
               <li>
@@ -67,18 +67,18 @@ const Nav = () => {
               {isOpen === true && (
                 <>
                   <li>
-                    <Link href='/' className={styles.navItem}>
-                      <span>
+                    <Link href='/'>
+                      <span className={styles.navItem3}>
                         <Phone className={styles.icon2} />
                         <p>480-529-1398</p>
                       </span>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/' className={styles.navItem}>
-                      <span>
+                    <Link href='/'>
+                      <span className={styles.navItem3}>
                         <Email className={styles.icon2} />
-                        <p>Balanier54@msn.com</p>
+                        <p>balanier54@msn.com</p>
                       </span>
                     </Link>
                   </li>
