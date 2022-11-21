@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../layout/Layout";
 import styles from "./Nav.module.css";
 import Logo from "../logo/Logo";
+import NierLogo from "../../public/icons/nierlogo.png";
 import Phone from "../../public/icons/phone.svg";
 import Email from "../../public/icons/email.svg";
 
@@ -28,7 +29,7 @@ const Nav = () => {
       <header className={styles.container}>
         <nav className={styles.navbar}>
           <div className={styles.navLeft}>
-            <Logo />
+            <Logo src={NierLogo} />
           </div>
           <div className={styles.navMiddle}>
             <ul

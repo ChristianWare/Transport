@@ -1,5 +1,6 @@
 import About from "../comps/about/About";
 import Fleet from "../comps/fleet/Fleet";
+import Footer from "../comps/footer/Footer";
 import Hero from "../comps/hero/Hero";
 import PreFooter from "../comps/preFooter/PreFooter";
 import Service from "../comps/services/Service";
@@ -14,6 +15,7 @@ export default function Home() {
       <Fleet />
       <Value />
       <PreFooter />
+      <Footer />
     </>
   );
 }
