@@ -10,7 +10,7 @@ const Value = () => {
         <div className={styles.top}>
           <h2 className={styles.title}>Best in the Business</h2>
           <p className={styles.copy}>
-            <span className={styles.accent}>//</span>Your Trustworth & Reliable
+            <span className={styles.accent}>//</span>Your Trustworthy & Reliable
             Transportation Experts
           </p>
         </div>

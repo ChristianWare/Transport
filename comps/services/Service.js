@@ -5,6 +5,8 @@ import Driver from "../../public/images/driver.webp";
 import Event from "../../public/images/event.jpg";
 import Plane from "../../public/images/plane.jpg";
 import Road from "../../public/images/road.jpg";
+import Corp from "../../public/images/corp.jpg";
+import Travel from "../../public/images/travel.jpg";
 
 const Service = () => {
   return (
@@ -23,6 +25,8 @@ const Service = () => {
               <ServiceCard src={Driver} title='Chauffeur' />
               <ServiceCard src={Event} title='Special Events' />
               <ServiceCard src={Road} title='Long Distance' />
+              <ServiceCard src={Corp} title='Corporate Accounts' />
+              <ServiceCard src={Travel} title='Business Travel Experts' />
             </div>
           </div>
         </div>

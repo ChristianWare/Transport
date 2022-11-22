@@ -37,10 +37,10 @@
 }
 
 .secondary:hover {
-    background-color: var(--green);
+    background-color: #161E54;
     border: 2px solid var(--black);
     transition: all 0.2s ease-in-out;
-    color: var(--black);
+    color: var(--white);
 }
 
 .white:hover {

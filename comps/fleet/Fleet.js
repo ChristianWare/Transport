@@ -17,7 +17,7 @@ const Fleet = () => {
               <span className={styles.accent}>//</span>What We Drive
             </p>
             <h6 className={styles.copy2}>
-              All of our vechiles come equiped with the following:
+              All of our vechiles come equipped with the following:
             </h6>
           </div>
           <div className={styles.bottom}>
