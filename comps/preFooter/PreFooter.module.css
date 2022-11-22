@@ -1,7 +1,6 @@
 .bgColor {
     color: var(--white);
     background-color: var(--black);
-    /* overflow: visible; */
     position: relative;
 }
 
@@ -28,6 +27,7 @@
 .imgContainer {
     position: relative;
     z-index: 2;
+    font-size: 0;
 }
 
 .right {
