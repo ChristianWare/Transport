@@ -1,6 +1,6 @@
 .bgColor {
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--blue2);
     position: relative;
 }
 
@@ -9,7 +9,7 @@
     content: '';
     top: -70px;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 200px;
     background-color: var(--white);
     z-index: 1;
@@ -35,9 +35,10 @@
     flex-direction: column;
     align-items: center;
     z-index: 10;
-    background-color: var(--blue2);
+    background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #9e9cd9, #0d5bd1, #0247b2);
     border-radius: 8px;
     padding: 2rem;
+    color:var(--black);
 }
 
 .title {

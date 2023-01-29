@@ -1,5 +1,5 @@
 .bgColor {
-    background-color: var(--black);
+    background-color: var(--blue2);
 }
 
 .footerContainer {
@@ -9,7 +9,7 @@
 }
 
 .footerBottom {
-    background-color: var(--black);
+    background-color: var(--blue2);
     padding: 5rem;
     padding-bottom: 0rem;
 }

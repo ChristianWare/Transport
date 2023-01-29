@@ -2,6 +2,11 @@
     background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #9e9cd9, #0d5bd1, #0247b2);
 }
 
+.reservation {
+    z-index: 999;
+    height: 300px;
+}
+
 .container {
     margin-top: 3rem;
     margin-bottom: 3.5rem;
