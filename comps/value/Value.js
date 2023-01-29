@@ -28,16 +28,18 @@ const Value = () => {
             </div>
             <div className={styles.right}>
               <h6>Our Promise To You</h6>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                hic quo, nemo vel eaque nesciunt porro ullam nobis, sequi quos
-                ipsa expedita eius id fuga excepturi adipisci neque totam eos
-                nihil consequatur obcaecati. Quisquam error deserunt rem
-                laborum, quo laudantium eligendi vitae soluta quasi quia illo
-                officia nam enim repellat animi totam. Excepturi deserunt, sunt
-                ratione tenetur error porro iusto explicabo sequi sed soluta
-                asperiores quaerat, quisquam laudantium corrupti dolore earum
-                molestias nam aut? Consequuntur.
+              <p className={styles.description} lang='en'>
+                At Nier Transportation, we understand that reliable and
+                efficient transportation is essential for both individuals and
+                businesses. That's why we are committed to providing the best
+                transportation service in the industry. Our team of experienced
+                drivers and dispatchers work tirelessly to ensure that every
+                trip is a success, and that our customers are satisfied with the
+                service they receive. We use the latest technology to track our
+                vehicles in real-time and make sure that they are always on
+                schedule. Trust us to provide you with the best
+                transportation service possible. Contact us today to learn more
+                and schedule your transportation services.
               </p>
               <div className={styles.featuresContainer}>
                 <div className={styles.feature}>

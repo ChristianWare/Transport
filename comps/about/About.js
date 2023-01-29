@@ -31,16 +31,18 @@ const About = () => {
             </div>
             <div className={styles.right}>
               <h6>How We Can Help</h6>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                hic quo, nemo vel eaque nesciunt porro ullam nobis, sequi quos
-                ipsa expedita eius id fuga excepturi adipisci neque totam eos
-                nihil consequatur obcaecati. Quisquam error deserunt rem
-                laborum, quo laudantium eligendi vitae soluta quasi quia illo
-                officia nam enim repellat animi totam. Excepturi deserunt, sunt
-                ratione tenetur error porro iusto explicabo sequi sed soluta
-                asperiores quaerat, quisquam laudantium corrupti dolore earum
-                molestias nam aut? Consequuntur.
+              <p className={styles.description} lang='en'>
+                At Nier Transportation, we pride ourselves on providing safe,
+                efficient, and affordable transportation for individuals and
+                groups alike. With years of experience in the industry, our team
+                of skilled drivers and dispatchers work tirelessly to ensure
+                that every trip is a success. We offer a wide range of
+                transportation options, including buses, vans, and cars, and are
+                dedicated to meeting the unique needs of each and every client.
+                Whether you need transportation for a special event, a corporate
+                function, or a daily commute, we've got you covered. Contact us
+                today to learn more about our services and how we can help you
+                get where you need to go.
               </p>
               <div className={styles.featuresContainer}>
                 <div className={styles.feature}>

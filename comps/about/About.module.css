@@ -37,6 +37,10 @@
     flex:1;
 }
 
+.description {
+    hyphens: auto;
+}
+
 .imgContainer {
     position: relative;
 }

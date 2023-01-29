@@ -14,10 +14,14 @@ const Footer = () => {
               <div className={styles.footerLeft}>
                 <Logo src={WhiteLogo} />
                 <p lang='en' className={styles.copy}>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
-                  eligendi in error officia distinctio! Minima, ducimus maiores
-                  blanditiis quia eveniet sit alias numquam, laudantium, debitis
-                  totam sint libero nam unde?
+                  Need reliable transportation services? Look no further than
+                  Nier Transportation. We offer a wide range of transportation
+                  options to meet all of your transportation needs. Our
+                  experienced drivers ensure safe and timely transport, while
+                  our competitive pricing and customizable packages make us the
+                  ideal choice for both individuals and groups. Trust us to get
+                  you where you need to go. Contact us today to learn more and
+                  schedule your transportation services.
                 </p>
                 <div className={styles.sci}></div>
               </div>

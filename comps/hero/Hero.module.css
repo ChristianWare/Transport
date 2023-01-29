@@ -35,7 +35,8 @@
 
 .copy {
     font-size: 2rem;
-    text-transform: uppercase;
+    hyphens: auto;
+    /* text-transform: uppercase; */
 }
 
 .btnContainer {

@@ -16,9 +16,14 @@ const PreFooter = () => {
           </div>
           <div className={styles.right}>
             <h2 className={styles.title}>SCHEDULE YOUR NEXT RIDE WITH US!</h2>
-            
+
             <div className={styles.btnContainer}>
-              <Button text='Book Now' btnType="white" />
+              <Button
+                text='Book Now'
+                btnType='white'
+                href='https://bookridesonline.com/book/?dbaid=L4JAaOi0gExXw5xek9dmgQ%3d%3d'
+                target='blank'
+              />
             </div>
           </div>
         </div>

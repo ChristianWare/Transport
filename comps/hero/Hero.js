@@ -17,8 +17,11 @@ const Hero = () => {
                 <h1 className={styles.title}>
                   Reliable & Professional Transportation Services
                 </h1>
-                <p className={styles.copy}>
-                  <span>//</span>We'll get you to where you need to go!
+                <p className={styles.copy} lang='en'>
+                  Need reliable transportation services? Look no
+                  further than Nier Transportation. We offer a wide range of
+                  transportation options to meet all of your transportation
+                  needs. 
                 </p>
                 <div className={styles.btnContainer}>
                   <Button
