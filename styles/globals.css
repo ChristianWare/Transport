@@ -1,9 +1,9 @@
 :root {
-  --blue1: #4787E6;
-  --blue2: #0247B2;
-  --black: #1C1C1C;
-  --white: #FFFFFF;
-  --green: #38E54D;
+  --blue1: #4787e6;
+  --blue2: #0247b2;
+  --black: #1c1c1c;
+  --white: #ffffff;
+  --green: #38e54d;
 }
 
 @font-face {
@@ -140,12 +140,7 @@ input {
 
 @media screen and (max-width: 480px) {
   h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong {
+  h2 {
     letter-spacing: -0.1rem;
   }
 }
